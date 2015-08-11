@@ -74,14 +74,14 @@ struct periodInfo {
 
 
 struct periodInfo normalInfo[] = { 
-    {1, TIME(7,45),  TIME(8,30)},
-	{2, TIME(8,35),  TIME(9,20)},
-	{3, TIME(9,25),  TIME(10,10)},
-	{4, TIME(10,15),  TIME(11,05)},
-	{5, TIME(11,10),  TIME(12,00)},
-	{6, TIME(12,05),  TIME(12,50)},
-	{7, TIME(12,55), TIME(13,40)},
-	{8, TIME(13,45), TIME(14,30)}
++    {1, TIME(7,15),  TIME(7,35)},
++	{2, TIME(7,35),  TIME(8,25)},
++	{3, TIME(8,25),  TIME(9,15)},
++	{4, TIME(9,15),  TIME(10,05)},
++	{5, TIME(10,05),  TIME(11,35)},
++	{6, TIME(11,35),  TIME(12,15)},
++	{7, TIME(12,25), TIME(13,50)},
++	{8, TIME(13,50), TIME(14,40)}
 };
 #define INFO_SIZE (sizeof(normalInfo)/sizeof(struct periodInfo))
 	
